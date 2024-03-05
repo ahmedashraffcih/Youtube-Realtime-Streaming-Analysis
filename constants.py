@@ -1,4 +1,8 @@
-# Passing confirgurations from config directory
+"""
+Passing configurations from config directory.
+
+The constants API_KEY and PLAYLIST_ID are retrieved from a local configuration file.
+"""
 import configparser
 import os
 
