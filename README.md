@@ -25,7 +25,7 @@ It streams this data through Kafka. Additionally, KSqlDB is utilized for stream 
 - Retrieves data from YouTube API by utilizing the provided playlist ID.
     - For example I used Garage Education - **[Hadoop & Distributed Systems Playlist](https://www.youtube.com/watch?v=Ot63tlh0PaE&list=PLxNoJq6k39G8Ak39PDC-oYvp6ZRvIn3Pa&pp=iAQB)**.
 - Transmits the obtained data to Kafka.
-- Incorporates an additional component (not detailed here but discussed in the video) that reads from the Kafka topic and conducts real-time analytics - using ksqlDB.
+- Incorporates an additional component that reads from the Kafka topic and conducts real-time analytics - using ksqlDB.
 - The outcomes of the analytics are then dispatched to Telegram for instantaneous notifications.
 
 ---
