@@ -1,6 +1,6 @@
 # Youtube Realtime Streaming Analysis
 
-## 🪄 Introduction
+## Introduction
 
 
 This project, built using Python, is designed to retrieve up-to-the-minute YouTube statistics such as likes, views, comments, and favorites. 
@@ -8,7 +8,7 @@ It streams this data through Kafka. Additionally, KSqlDB is utilized for stream 
 
 ## System Architecture
 
-![System Architecture](https://github.com/ahmedashraffcih/Youtube-Realtime-Streaming-Analysis/tree/main/assets/architecture.png)
+![System Architecture](https://github.com/ahmedashraffcih/Youtube-Realtime-Streaming-Analysis/blob/main/assets/architecture.png)
 
 ## Requirements
 
@@ -23,7 +23,7 @@ It streams this data through Kafka. Additionally, KSqlDB is utilized for stream 
 ## How It works
 
 - Retrieves data from YouTube API by utilizing the provided playlist ID.
-- - For example I used Garage Education - Hadoop & Distributed Systems Playlist
+    - For example I used Garage Education - **[Hadoop & Distributed Systems Playlist](https://www.youtube.com/watch?v=Ot63tlh0PaE&list=PLxNoJq6k39G8Ak39PDC-oYvp6ZRvIn3Pa&pp=iAQB)**.
 - Transmits the obtained data to Kafka.
 - Incorporates an additional component (not detailed here but discussed in the video) that reads from the Kafka topic and conducts real-time analytics - using ksqlDB.
 - The outcomes of the analytics are then dispatched to Telegram for instantaneous notifications.
@@ -31,7 +31,7 @@ It streams this data through Kafka. Additionally, KSqlDB is utilized for stream 
 ---
 
 
-## 💿 Getting Started
+## Getting Started
 
 1. Clone the repository:
     ```bash
