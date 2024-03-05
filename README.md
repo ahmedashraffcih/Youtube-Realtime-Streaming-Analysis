@@ -58,6 +58,10 @@ It streams this data through Kafka. Additionally, KSqlDB is utilized for stream 
     ```bash
     python analytics.py
     ```
+----
+
+## 📜 Resources
+* [Google Cloud Realtime Streaming ](https://github.com/airscholar/YoutubeAnalytics)
 ---
 
 
