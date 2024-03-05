@@ -8,7 +8,7 @@ It streams this data through Kafka. Additionally, KSqlDB is utilized for stream 
 
 ## System Architecture
 
-![System Architecture](https://github.com/ahmedashraffcih/Youtube-Realtime-Streaming-Analysis/blob/main/assets/architecture_v2.png)
+![System Architecture](https://github.com/ahmedashraffcih/Youtube-Realtime-Streaming-Analysis/blob/main/assets/architecture.png)
 
 ## Requirements
 
